@@ -36,6 +36,34 @@ public class BaseSceneController implements Initializable {
         double result = d1+d2;
         Result.setText(""+result);
     }
+    @FXML
+    private void handleSubstraction(ActionEvent Event){
+        String n1 = Number1.getText();
+        String n2 = Number2.getText();
+        double d1 = Double.parseDouble(n1);
+        double d2 = Double.parseDouble(n2);
+        double result = d1-d2;
+        Result.setText(""+result);
+    }
+    @FXML
+    private void handleMuntiplication(ActionEvent Event){
+        String n1 = Number1.getText();
+        String n2 = Number2.getText();
+        double d1 = Double.parseDouble(n1);
+        double d2 = Double.parseDouble(n2);
+        double result = d1*d2;
+        Result.setText(""+result);
+    }
+    @FXML
+    private void handleDivision(ActionEvent Event){
+        String n1 = Number1.getText();
+        String n2 = Number2.getText();
+        double d1 = Double.parseDouble(n1);
+        double d2 = Double.parseDouble(n2);
+        double result = d1/d2;
+        Result.setText(""+result);
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
