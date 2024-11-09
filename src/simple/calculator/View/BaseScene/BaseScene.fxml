@@ -25,7 +25,7 @@
       </Text>
       <TextField fx:id="Number1" layoutX="226.0" layoutY="106.0" promptText="Inter Number 1" />
       <TextField fx:id="Number2" layoutX="226.0" layoutY="146.0" promptText="Inter Number 2" />
-      <TextField fx:id="Result" layoutX="215.0" layoutY="248.0" promptText="0" />
+      <TextField fx:id="Result" disable="true" layoutX="215.0" layoutY="248.0" promptText="0" />
       <Text layoutX="168.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result:">
          <font>
             <Font size="15.0" />
